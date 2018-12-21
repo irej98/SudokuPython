@@ -1,5 +1,9 @@
+# creating input array
+arr = np.ndarray(shape = (9,9), dtype=int)
+arr = arr * 0; # set to zero
+
 # creating a 9 by 9 array which contains list with possibilities for each position
-arr = np.ndarray(shape = (9,9,1), dtype=np.ndarray)
+arr = np.ndarray(shape = (9,9), dtype=np.ndarray)
 
 # adding a posibility
 arr[0,0,0].append(4)
